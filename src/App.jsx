@@ -5,7 +5,7 @@ import PaperSidebar from './components/PaperSidebar';
 import ControlPanel from './components/ControlPanel';
 import MiniSearch from './components/MiniSearch';
 
-const API_URL = "nhttps://neurips-2025-backend-production.up.railway.app";
+const API_URL = "https://neurips-2025-backend-production.up.railway.app";
 
 function App() {
   const [currentQuery, setCurrentQuery] = useState("");
