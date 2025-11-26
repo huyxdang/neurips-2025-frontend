@@ -1,6 +1,6 @@
 # NeurIPS 2025 Atlas
 
-Interactive visualization of ~6,000 NeurIPS 2025 papers using UMAP dimensionality reduction and semantic search.
+Search and visualize ~6,000 NeurIPS 2025 papers
 
 ## Features
 
