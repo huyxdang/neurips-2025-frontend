@@ -5,6 +5,8 @@ import PaperSidebar from './components/PaperSidebar';
 import ControlPanel from './components/ControlPanel';
 import MiniSearch from './components/MiniSearch';
 
+const API_URL = "nhttps://neurips-2025-backend-production.up.railway.app";
+
 function App() {
   const [currentQuery, setCurrentQuery] = useState("");
   const [data, setData] = useState([]);
@@ -48,7 +50,7 @@ function App() {
     setIsSearching(true);
     setCurrentQuery(query);
     try {
-      const response = await fetch('http://127.0.0.1:8000/search', {
+      const response = await fetch(`${API_URL}/search`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
