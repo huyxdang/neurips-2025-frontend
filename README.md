@@ -1,16 +1,60 @@
-# React + Vite
+# NeurIPS 2025 Atlas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interactive visualization of ~6,000 NeurIPS 2025 papers using UMAP dimensionality reduction and semantic search.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🗺️ Interactive neural map visualization with deck.gl
+- 🔍 Semantic search powered by SPECTER2 embeddings
+- 🎯 Filter papers by award, track, and topic
+- 📊 Cluster-based organization with topic labels
+- 💡 AI-powered paper summaries and recommendations
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** + **Vite** - Frontend framework
+- **deck.gl** - WebGL-powered visualization
+- **Tailwind CSS** - Styling
+- **Framer Motion** - Animations
+- **React Markdown** - Markdown rendering
 
-## Expanding the ESLint configuration
+## Development
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+```
+
+## Deployment
+
+This project is configured for deployment on Vercel. The `vercel.json` file contains the deployment configuration.
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── NeuralMap.jsx      # Main visualization component
+│   ├── ControlPanel.jsx   # Filter and settings panel
+│   ├── PaperSidebar.jsx   # Paper details sidebar
+│   └── MiniSearch.jsx     # Search interface
+├── App.jsx                # Main app component
+└── main.jsx              # Entry point
+
+public/
+├── neurips_data.json      # Paper data
+└── cluster_labels.json    # Cluster metadata
+```
+
+## License
+
+MIT
