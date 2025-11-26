@@ -1,0 +1,77 @@
+[
+  {
+    "x": 8.756255132298804,
+    "y": 8.37101195375108,
+    "cluster_name": "LLM Reasoning"
+  },
+  {
+    "x": 11.561454981900333,
+    "y": 3.7830418292056307,
+    "cluster_name": "Bandits & Online Learning"
+  },
+  {
+    "x": 8.816463652139978,
+    "y": 1.9735537447506868,
+    "cluster_name": "Optimization & Flow Theory"
+  },
+  {
+    "x": 11.922683298302609,
+    "y": 5.9097505243201,
+    "cluster_name": "Graph Neural Networks"
+  },
+  {
+    "x": 3.706177186576157,
+    "y": 2.862976322950394,
+    "cluster_name": "3D Gaussian Splatting"
+  },
+  {
+    "x": 3.1385339153729954,
+    "y": 4.227584124895243,
+    "cluster_name": "Embodied 3D Agents"
+  },
+  {
+    "x": 7.867731490463176,
+    "y": 3.7717453632405196,
+    "cluster_name": "Neural Architecture Design"
+  },
+  {
+    "x": 8.828808544545273,
+    "y": 6.827188273841304,
+    "cluster_name": "Efficient LLM Training"
+  },
+  {
+    "x": 8.346751149058594,
+    "y": 4.307279260415608,
+    "cluster_name": "Continual & Transfer Learning"
+  },
+  {
+    "x": 9.414663824924203,
+    "y": 0.7497718795527553,
+    "cluster_name": "AI for Molecules & Proteins"
+  },
+  {
+    "x": 5.256250758003033,
+    "y": 4.975548540672804,
+    "cluster_name": "Vision-Language Models"
+  },
+  {
+    "x": 9.464195756702962,
+    "y": 2.9792339349615165,
+    "cluster_name": "Time Series & Causality"
+  },
+  {
+    "x": 11.688770733082803,
+    "y": 2.4135584674383463,
+    "cluster_name": "Reinforcement Learning"
+  },
+  {
+    "x": 7.45199883308856,
+    "y": 7.497556090818769,
+    "cluster_name": "Adversarial & LLM Safety"
+  },
+  {
+    "x": 5.038774241161885,
+    "y": 3.9223980758823243,
+    "cluster_name": "Image & Video Generation"
+  }
+]
